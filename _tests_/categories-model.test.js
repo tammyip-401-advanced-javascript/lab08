@@ -9,20 +9,22 @@ afterEach(async () => {
   await modelObj.model.deleteMany({}).exec();
 })
 
-describe('Database can create', () => {
+describe('can create a category', () => {
   it('for best case', async () => {
     let response = await modelObj.create({
-      note: 'buy apples',
-      category: 'random',
+      id: 4,
+      name: 'seafood',
+      display_name: 'seafood',
+      description: 'freah seafood from PNW',
     });
     console.log(response);
 
     expect(response).not.toBe(false);
-    expect(response.note).toBe('buy apples');
+    expect(response.description).toBe('freah seafood from PNW');
   })
 });
 
-describe('Database can show all notes', () => {
+describe('can show all categories', () => {
   it('an existing record', async () => {
     let arg4 = await modelObj.create({
       note: 'buy oranges',
@@ -52,7 +54,7 @@ describe('Database can show all notes', () => {
   })
 });
 
-describe('Database can update', () => {
+describe('can update a category', () => {
   it('for best case', async () => {
     let response = await modelObj.create({
       note: 'buy eggs',
@@ -70,7 +72,7 @@ describe('Database can update', () => {
   })
 });
 
-describe('Database can delete', () => {
+describe('can delete a category', () => {
   it('an existing record', async () => {
     let arg3 = await modelObj.create({
       note: 'buy apples',
