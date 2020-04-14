@@ -5,7 +5,7 @@ Project Name: Express Routing & Connected API
 Author: Tammy Ip
 
 Links and Resources (see below)
-submission PR: https://github.com/tammyip-401-advanced-javascript/lab07/pull/1
+submission PR: https://github.com/tammyip-401-advanced-javascript/lab08/pull/1
 Heroku Deployment:  https://js401n16-lab8.herokuapp.com/
 SwaggerHub API info: https://app.swaggerhub.com/apis-docs/iptmh/Lab06/0.1
 Code Fellows Supergoose: https://www.npmjs.com/package/@code-fellows/supergoose
@@ -33,5 +33,6 @@ Tests
 Testing command: `npm test` from root directory
 
 UML
-https://docs.google.com/spreadsheets/d/1tn-Qxf76dxY4rR8cuiVH35yYNZ3DYzqW_hTI_vsZVX4/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1Yzy2D7pHH9ekdRy0s2IXO6LNuaCkgXoCAdNFE0PxIfc/edit?usp=sharing
+
 
