@@ -18,7 +18,7 @@
         "express": "^4.17.1",
         "express-swagger-generator": "^1.1.17",
         "minimist": "^1.2.5",
-        "mongoose": "^5.9.6",
+        "mongoose": "^5.9.9",
         "morgan": "^1.10.0",
         "nodemon": "^2.0.3"
     }
